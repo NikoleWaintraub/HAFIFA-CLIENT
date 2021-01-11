@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(242, 242, 247);
+  /* background-color: rgb(195, 195, 236); */
+
+  /* background-color: white; */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  direction: ltr;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: darkgrey;
+  border-radius: 10px;
+}
+
+.center{
+  text-align: center;
+}
+
+.searchBar{
+  text-align: center;
+  padding-right: 30vh;
+}
+
+.search{
+  text-align: left;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.searchFields{
+  padding-right: 115px;
+}
+
+.listItem{
+  border-bottom-style: groove;
+}
+
+.gmush{
+  text-align: right;
+  padding-top: 6%;
+}
+
+/* ---------------------------------------------------- */
